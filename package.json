@@ -1,0 +1,20 @@
+{
+  "name": "playwright-api-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:api":"playwright test --config=api.config.ts --project=Chromium",
+      "test": "npx playwright test",
+      "test:headed": "npm run test -- --headed",
+      "show-report": "npx playwright show-report"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  }
+}
